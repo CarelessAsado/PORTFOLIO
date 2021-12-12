@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/img/ico.ico">
+    <script src="https://kit.fontawesome.com/ec87a17681.js" crossorigin="anonymous"></script>
+    <title>Rodrigo Hernán López</title>
+</head>
+<body>
+      
+    <nav>
+        <div class="nav-center">
+            <nav-header class="espaciar">
+                <div class="logo">
+                    <a href="#">
+                            <img id="logoRHL"src="/img/logo.png">    
+                    </a>
+                </div> 
+
+
+                <div class="nav-button">
+                    <div class="burger-dash">
+                    </div>
+                </div>
+
+            </nav-header>  
+
+            <ul class="links">    
+                <li>
+                    <a href="#about" id="aboutHover">
+                            Sobre mí
+                    </a>
+                </li>
+
+                <li >
+                    <a href="#proyectos" id="proyectosHover">
+                        Proyectos
+                    </a>
+                </li>
+                <li>
+                    <a  href="#skills" id="skillsHover">
+                        Conocimientos
+                    </a>
+                </li>
+                <li>                    
+                    <a href="#contacto" id="contactoHover" >
+                        Contacto
+                    </a>
+                </li>
+            </ul> 
+        </div>
+    </nav>
+    <section id="intro">
+        <video class="videoIntro" src="/vid/codingblurry.mp4" autoplay="true" loop="true"></video>
+        <div class="bannerText">
+            <h1> <span class="izq">Rodrigo</span> <span class="centro">Hernán</span> <span class="dcha">López</span> </h1> 
+            <h2 >Programador web full-stack</h2>
+            <p> <a href="#proyectos">Ver mis proyectos></a></p>
+        </div>
+    </section>
+ 
+    <div id="backBone">
+        <div class="franja"></div>
+        <div class="franja"></div>
+        <div class="franja"></div>
+        <div class="franja"></div>
+        <div class="franja"></div>
+    </div>
+    <section id="about">
+        <header class="aboutHeader">
+            <p ><em> "Mucho gusto, me llamo Rodrigo"</em></p>
+            <h2>Sobre mí</h2><span class="tituloFantasma">Sobre mí</span> 
+        </header>
+        <div class="aboutContainer">
+            <div class="aboutGridIzq">
+                <!-- con aspiraciones a devenir  -->
+                <h3><span>Traductor público</span> con una pizca de <span>programador</span>.</h3>
+                <p>Trabajo como traductor público de inglés desde el 2013. Con motivo de la pandemia decidí aprovechar para redireccionar mi carrera hacia un sector que me permitiera explorar desafíos con mayor creatividad.</p> 
+                <p>La programación fue la rama que captó mi atención y mi desenvoltura en idiomas facilitó dicha transición. Gracias a los cursos de <span class="freeWilly">Free Code Camp</span> logré obtener las certificaciones de frontend y <span class="Js">Javascript</span>.  Actualmente estoy finalizando la certificación de <span>MongoDb</span> y <span>Nodejs</span>.</p>
+                <p> Autodidacta por naturaleza, me encanta aprender y superarme cada día.</p>
+                <p><a class="blue" href="./cv/CV español 2021.pdf" download> Conocé más sobre mí.</a></p>
+            </div>
+            <div class="aboutGridDcha">
+                <img src="/img/me1.png" alt="imagen chico guapo">
+            </div>
+        </div>
+    </section>
+    <section id="proyectos">
+        <header class="proyectosHeader">
+            <h2>Proyectos</h2>
+            <span class="tituloFantasma">Proyectos</span>
+        </header>
+        <div class="proyectosGridContainer">
+            <div class="proyectoItem">
+                <div class="imgContainer">
+                    <img src="/img/rodribook.png" alt="proyecto Rodribook" class="bajarFoto"></img>
+                    <div class="proyectoOverlay">
+                        <div class="additionalInfo"><i class="fas fa-info"></i>
+
+                        </div>
+                        <div id="restOfTheInfo">
+                            Recreación del famoso sitio. Previo registro e inicio de sesión, los usuarios pueden acceder a un muro público para escribir mensajes, así como acceder de manera privada a su información de usuario y editarla. 
+                            
+                            <div class="flex">
+                                <h4>Nodejs</h4>
+                                <h4>Express-sessions</h4>
+                                <h4>MongoDb</h4>
+                                <h4>Mongoose</h4>
+                            </div>
+                        </div>
+                        <div class="textMargin">
+                            <div class="titleProject">RODRIBOOK WEBSITE</div>
+                            <div class="descriptionProject">Recreación del famoso sitio. Previo registro e inicio de sesión, los usuarios pueden acceder a un muro público para escribir mensajes, así como acceder de manera privada a su información de usuario y editarla. </div>
+                            <div class="linksProject">
+                                <a href="" class="btnSvg">
+                                    <span class="logoGit">REPOSITORIO</span>
+                                    <svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2 0 1.9 1.2 1.9 1.2 1 1.8 2.8 1.3 3.5 1 0-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-6 0-1.2.5-2.3 1.3-3.1-.2-.4-.6-1.6 0-3.2 0 0 1-.3 3.4 1.2a11.5 11.5 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8 0 3.2.9.8 1.3 1.9 1.3 3.2 0 4.6-2.8 5.6-5.5 5.9.5.4.9 1 .9 2.2v3.3c0 .3.1.7.8.6A12 12 0 0 0 12 .3"></path></svg>
+                                </a>
+    
+                                <a class="btnSvg" href="https://rodribook.herokuapp.com/" target="_blank">
+                                    <span class="logoWeb">WEBSITE</span>
+                                    <svg class="MuiSvgIcon-root alt" viewBox="0 0 24 24"  xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zM4 12c0-.899.156-1.762.431-2.569L6 11l2 2v2l2 2 1 1v1.931C7.061 19.436 4 16.072 4 12zm14.33 4.873C17.677 16.347 16.687 16 16 16v-1a2 2 0 0 0-2-2h-4v-3a2 2 0 0 0 2-2V7h1a2 2 0 0 0 2-2v-.411C17.928 5.778 20 8.65 20 12a7.947 7.947 0 0 1-1.67 4.873z"></path></svg>
+                                </a>
+                            </div>
+                            <div class="tecnologiasProject">
+                                <h4>Nodejs</h4>
+                                <h4>Express-sessions</h4>
+                                <h4>MongoDb</h4>
+                                <h4>Mongoose</h4>
+                            </div>      
+                        </div>
+                    </div>                   
+                    <div class="projectFooter"></div>
+                    <div class="footerOverlay"></div>
+                </div>           
+            </div>
+
+            <div class="proyectoItem">
+                <div class="imgContainer">
+                    <img src="/img/blackjack.png" alt="proyecto Blackjack"></img> 
+                    
+                    <div class="proyectoOverlay">
+                        <div class="additionalInfo"><i class="fas fa-info"></i>
+
+                        </div>
+                        <div id="restOfTheInfo">
+                            Juego de blackjack que tomé como base del sitio Free Code Camp, y que luego fui adaptando: notificaciones sobre el estado de la partida, un bot dealer, interfaz para realizar apuestas, etc. 
+                            <div class="flex">
+                                <h4>Javascript</h4>
+                                <h4>HTML</h4>
+                                <h4>CSS</h4>
+                            </div>
+                        </div>
+
+                        <div class="textMargin">
+                                <div class="titleProject">BLACKJACK GAME</div>
+                                <div class="descriptionProject">Juego de blackjack que tomé como base del sitio <strong><a href="https://www.youtube.com/watch?v=jS4aFq5-91M&t=14359s">Free Code Camp</a></strong>, y que luego fui adaptando: notificaciones sobre el estado de la partida, un bot dealer, interfaz para realizar apuestas, etc. </div>
+                                <div class="linksProject">
+                                    <a href="https://github.com/CarelessAsado/jackblack" class="btnSvg">
+                                        <span class="logoGit">REPOSITORIO</span>
+                                        <svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2 0 1.9 1.2 1.9 1.2 1 1.8 2.8 1.3 3.5 1 0-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-6 0-1.2.5-2.3 1.3-3.1-.2-.4-.6-1.6 0-3.2 0 0 1-.3 3.4 1.2a11.5 11.5 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8 0 3.2.9.8 1.3 1.9 1.3 3.2 0 4.6-2.8 5.6-5.5 5.9.5.4.9 1 .9 2.2v3.3c0 .3.1.7.8.6A12 12 0 0 0 12 .3"></path></svg>
+                                    </a>
+                                    <a class="btnSvg" href="http://rohelaw.com.ar/jackblack/" target="_blank">
+                                        <span class="logoWeb">WEBSITE</span>
+                                        <svg class="MuiSvgIcon-root alt" viewBox="0 0 24 24"  xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zM4 12c0-.899.156-1.762.431-2.569L6 11l2 2v2l2 2 1 1v1.931C7.061 19.436 4 16.072 4 12zm14.33 4.873C17.677 16.347 16.687 16 16 16v-1a2 2 0 0 0-2-2h-4v-3a2 2 0 0 0 2-2V7h1a2 2 0 0 0 2-2v-.411C17.928 5.778 20 8.65 20 12a7.947 7.947 0 0 1-1.67 4.873z"></path></svg>
+                                    </a>
+                                </div>
+                                <div class="tecnologiasProject">
+                                    <h4>Javascript</h4>
+                                    <h4>HTML</h4>
+                                    <h4>CSS</h4>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="projectFooter"></div>
+                    <div class="footerOverlay"></div>          
+                </div>
+              
+            </div>
+            <div class="proyectoItem">
+                <div class="imgContainer">
+                    
+                    <img src="/img/rohelaw.com.ar.png" alt="proyecto Rohelaw" ></img> 
+                    <div class="proyectoOverlay">
+                        <div class="additionalInfo"><i class="fas fa-info"></i>
+
+                        </div>
+                        <div id="restOfTheInfo">
+                            Mi primer sitio web.
+                            <div class="flex">
+                                <h4>Javascript</h4>
+                                <h4>HTML</h4>
+                                <h4>CSS</h4>
+                            </div>
+                        </div>
+                        <div class="textMargin">
+                            <div class="titleProject">ROHELAW WEBSITE</div>
+                            <div class="descriptionProject">Mi primer sitio web.</div>
+                            <div class="linksProject">
+                                <a href="https://github.com/CarelessAsado/CarelessAsado.github.io" class="btnSvg">
+                                    <span class="logoGit">REPOSITORIO</span>
+                                    <svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2 0 1.9 1.2 1.9 1.2 1 1.8 2.8 1.3 3.5 1 0-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-6 0-1.2.5-2.3 1.3-3.1-.2-.4-.6-1.6 0-3.2 0 0 1-.3 3.4 1.2a11.5 11.5 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8 0 3.2.9.8 1.3 1.9 1.3 3.2 0 4.6-2.8 5.6-5.5 5.9.5.4.9 1 .9 2.2v3.3c0 .3.1.7.8.6A12 12 0 0 0 12 .3"></path></svg>
+                                </a>
+    
+                                <a class="btnSvg" href="https://rohelaw.com.ar/" target="_blank">
+                                    <span class="logoWeb">WEBSITE</span>
+                                    <svg class="MuiSvgIcon-root alt" viewBox="0 0 24 24"  xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zM4 12c0-.899.156-1.762.431-2.569L6 11l2 2v2l2 2 1 1v1.931C7.061 19.436 4 16.072 4 12zm14.33 4.873C17.677 16.347 16.687 16 16 16v-1a2 2 0 0 0-2-2h-4v-3a2 2 0 0 0 2-2V7h1a2 2 0 0 0 2-2v-.411C17.928 5.778 20 8.65 20 12a7.947 7.947 0 0 1-1.67 4.873z"></path></svg>
+                                </a>
+                            </div>
+                            <div class="tecnologiasProject">
+                                <h4>Javascript</h4>
+                                <h4>HTML</h4>
+                                <h4>CSS</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projectFooter"></div>
+                    <div class="footerOverlay"></div>
+                </div>
+       
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <header class="skillsHeader">
+            <h2>Tecnologías</h2>
+            <span class="tituloFantasma">Tecnologías</span>
+        </header>
+        <div class="skillsContainer">
+            <img src="/img/skills/nodejs.png" class="node" alt="nodejs">
+
+            <img src="/img/skills/express.png" class="express" alt="express">
+            <img src="/img/skills/mongodb.png" class="span2" alt="mongodb">
+            <img src="/img/skills/mongoose.png" class="span2"  alt="mongoose">
+            <img src="/img/skills/github.png"  class="span2"alt="github">
+            
+            <img src="/img/skills/Html5-JS-css-logo.png" class="span2" alt="">
+            <img src="/img/skills/react.png" class="span2" alt="react">
+            <img src="/img/skills/photoshop.png" class="photo span2" alt="photoshop">
+            
+            <img src="/img/skills/passport.png" class="node"alt="passport.js">
+            <img src="/img/skills/ableton.png" class="photo express" alt="ableton">
+
+
+        </div>
+    </section>
+    <section id="contacto">
+        <header class="contactoHeader">
+            <h2>Contacto</h2>
+            <span class="tituloFantasma">Contacto</span>
+        </header>
+
+        <div class="contactoGridContainer">
+            <div class="contactoGridIzq">
+                <div class="emailInfoContacto">
+                    <i class="far fa-envelope"></i><span>contacto@rodrigohernanlopez.com.ar</span> 
+                </div>
+                <div class="celularInfoContacto">
+                    <i class="fab fa-whatsapp green-color" aria-hidden="true"></i><span>(+54 9) 11-3756-1057</span>
+                </div>
+            </div>
+
+            <div class="contactoGridDcha">
+                <form action="https://formsubmit.co/contact@rohelaw.com.ar" method="post" id="contactForm">
+                    <input type="text" name="_honey" style="display: none;">
+                    <input type="hidden" name="_captcha" value="false">
+                    <div class="input">
+                        <input type="text" id="name" class="inputPosta" placeholder="Nombre *" name="name" required>
+                        <label for="name">Nombre</label>
+                    </div>
+                    <div class="input">
+                        <input type="email" id="email"  class="inputPosta"placeholder="Email *" name="email" required>
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="input span2">
+                        <input type="text" class="inputPosta" id="asunto" placeholder="Asunto" name="asunto">
+                        <label for="asunto">Asunto</label>
+                    </div>
+                    <div class="inputControl span2">
+                        <textarea name="" id="mensaje"  rows="5"  placeholder="Mensaje *" name="mensaje" required></textarea>
+                        <label for="mensaje" id="textAreaLabel">Mensaje</label>
+                    </div>
+                    <div class="inputControl span2">
+                        <label for="botonEnviarForm"></label>
+                        <input type="submit" id="botonEnviarForm" value="Enviar">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+<!--     <footer id="footer">
+        contacto@rodrigohernanlopez.com.ar |<span> Rodrigo Hernán López </span> 
+    </footer> -->
+    <!-- JS COMPONENTS -->    
+    <script src="./index.js"></script>
+
+</body>
+<style>
+
+
+</style>
+</html>
