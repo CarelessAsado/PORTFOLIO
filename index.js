@@ -24,15 +24,19 @@ navBackgroundChange.observe(introSection)
 
 /*------------------------------------------*/
 /*----------------------------------------------------*/
+let whatsappLogo = document.getElementById("whatsappLogo")
 window.addEventListener("DOMContentLoaded", ()=>{
     let sections = document.querySelectorAll("section")
     const underlineNavObserve = new IntersectionObserver((entries,observer)=>{
             entries.forEach(entry=>{
                 let ID =entry.target.id
                     if(entry.target.id =="intro"){
+                        whatsappLogo.classList.remove("show")
                         return   
                     }
-                    
+                     if(entry.target.id =="proyectos"&&entry.isIntersecting){
+                        whatsappLogo.classList.add("show")
+                    } 
                     let tag = document.getElementById(ID+"Hover")
                 if (!entry.isIntersecting){
                     entry.target.classList.remove("show")  
