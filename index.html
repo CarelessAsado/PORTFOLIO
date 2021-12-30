@@ -53,7 +53,7 @@
         </div>
     </nav>
     <section id="intro">
-        <video class="videoIntro" src="/vid/codingblurry.mp4" autoplay loop></video>
+        <video class="videoIntro" src="/vid/codingblurry.mp4" autoplay="true"  loop="true"></video>
         <div class="bannerText">
             <h1> <span class="izq">Rodrigo</span> <span class="centro">Hernán</span> <span class="dcha">López</span> </h1> 
             <h2 >Programador web full-stack</h2>
@@ -61,7 +61,7 @@
         </div>
     </section>
     <!-- LOGO WHATSAPP VOLADOR -->
-    <a href="https://wa.me/541137561057?text=Hola Rodrigo" target="_blank"> 
+    <a href="https://wa.me/33786053233?text=Hola Rodrigo" target="_blank"> 
         <img id="whatsappLogo" src="/img/whatsapp.png" alt="">
     </a>
     
@@ -79,9 +79,10 @@
         </header>
         <div class="aboutContainer">
             <div class="aboutGridIzq">
-                <h3><span>Traductor público y programador.</span></h3>
-                <p>Me desempeño como traductor público de inglés desde el 2013. Con motivo de la pandemia decidí aprovechar para redireccionar mi carrera hacia un sector que me permitiera explorar desafíos con mayor creatividad.</p> 
-                <p>La programación fue la rama que captó mi atención y mi desenvoltura en idiomas facilitó dicha transición. Gracias a los cursos de <span class="freeWilly">Free Code Camp</span> logré obtener las certificaciones de frontend y <span class="Js">Javascript</span>.  Actualmente estoy finalizando la certificación de <span>MongoDb</span> y <span>Nodejs</span>, y comenzando con <span class="freeWilly">React</span>.</p>
+                <!-- con aspiraciones a devenir  -->
+                <h3><span>Traductor público</span> con una pizca de <span>programador</span>.</h3>
+                <p>Trabajo como traductor público de inglés desde el 2013. Hace un año, decidí redireccionar mi carrera profesional hacia un sector que me permitiera explorar desafíos con mayor creatividad.</p> 
+                <p>La programación fue la rama que captó mi atención y mi desenvoltura en idiomas facilitó dicha transición. Gracias a los cursos de <span class="freeWilly">Free Code Camp</span> logré obtener las certificaciones de frontend y <span class="Js">Javascript</span>.  Actualmente estoy realizando proyectos con <span>MongoDb</span>, <span>Nodejs</span>, y <span class="freeWilly">React</span>.</p>
                 <p> Autodidacta por naturaleza, me encanta aprender y superarme cada día.</p>
                 <p><a class="blue" href="./cv/CV español 2021.pdf" download> Conocé más sobre mí.</a></p>
             </div>
@@ -96,6 +97,48 @@
             <span class="tituloFantasma">Proyectos</span>
         </header>
         <div class="proyectosGridContainer">
+                       <div class="proyectoItem">
+                <div class="imgContainer">
+                    <img src="/img/React+JWT.png" alt="proyecto MERN" class="bajarFoto"></img>
+                    <div class="proyectoOverlay">
+                        <div class="additionalInfo"><i class="fas fa-info"></i>
+
+                        </div>
+                        <div id="restOfTheInfo">
+                            Gestor de tareas realizado en React con autenticación JWT, que se comunica con una API en Nodejs y una base de datos en Mongo Atlas. 
+                            <div class="flex">
+                                <h4>React</h4>
+                                <h4>Nodejs</h4>
+                                <h4>JWT</h4>
+                                <h4>Mongoose</h4>
+                            </div>
+                        </div>
+                        <div class="textMargin">
+                            <div class="titleProject">PROYECTO MERN</div>
+                            <div class="descriptionProject"> Gestor de tareas realizado en React con autenticación JWT, que se comunica con una API en Nodejs y una base de datos en Mongo Atlas. </div>
+                            <div class="linksProject">
+                                <a href="https://github.com/CarelessAsado/MERN-gestordetareas/tree/main/MERN" class="btnSvg" target="_blank">
+                                    <span class="logoGit">REPOSITORIO</span>
+                                    <svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2 0 1.9 1.2 1.9 1.2 1 1.8 2.8 1.3 3.5 1 0-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-6 0-1.2.5-2.3 1.3-3.1-.2-.4-.6-1.6 0-3.2 0 0 1-.3 3.4 1.2a11.5 11.5 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8 0 3.2.9.8 1.3 1.9 1.3 3.2 0 4.6-2.8 5.6-5.5 5.9.5.4.9 1 .9 2.2v3.3c0 .3.1.7.8.6A12 12 0 0 0 12 .3"></path></svg>
+                                </a>
+    
+                                <a class="btnSvg" href="https://tender-allen-b77235.netlify.app/" target="_blank">
+                                    <span class="logoWeb">WEBSITE</span>
+                                    <svg class="MuiSvgIcon-root alt" viewBox="0 0 24 24"  xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zM4 12c0-.899.156-1.762.431-2.569L6 11l2 2v2l2 2 1 1v1.931C7.061 19.436 4 16.072 4 12zm14.33 4.873C17.677 16.347 16.687 16 16 16v-1a2 2 0 0 0-2-2h-4v-3a2 2 0 0 0 2-2V7h1a2 2 0 0 0 2-2v-.411C17.928 5.778 20 8.65 20 12a7.947 7.947 0 0 1-1.67 4.873z"></path></svg>
+                                </a>
+                            </div>
+                            <div class="tecnologiasProject">
+                    <h4>React</h4>
+                                <h4>Nodejs</h4>
+                                <h4>JWT</h4>
+                                <h4>Mongoose</h4>
+                            </div>      
+                        </div>
+                    </div>                   
+                    <div class="projectFooter"></div>
+                    <div class="footerOverlay"></div>
+                </div>           
+            </div>
             <div class="proyectoItem">
                 <div class="imgContainer">
                     <img src="/img/rodribook.png" alt="proyecto Rodribook" class="bajarFoto"></img>
@@ -243,8 +286,9 @@
             <img src="/img/skills/react.png" class="span2" alt="react">
             <img src="/img/skills/photoshop.png" class="photo span2" alt="photoshop">
             
-            <img src="/img/skills/passport.png" class="node"alt="passport.js">
-            <img src="/img/skills/ableton.png" class="photo express" alt="ableton">
+            <img src="/img/skills/passport.png" class="span2"alt="passport.js">
+            <img src="/img/skills/ableton.png" class="photo span2" alt="ableton">
+            <img src="/img/skills/jwt.png" alt="jsonwebtoken " class="span2">
 
 
         </div>
@@ -266,7 +310,7 @@
             </div>
 
             <div class="contactoGridDcha">
-                <form action="https://formsubmit.co/contacto@rodrigohernanlopez.com.ar" method="post" id="contactForm">
+                <form action="https://formsubmit.co/contact@rohelaw.com.ar" method="post" id="contactForm">
                     <input type="text" name="_honey" style="display: none;">
                     <input type="hidden" name="_captcha" value="false">
                     <div class="input">
